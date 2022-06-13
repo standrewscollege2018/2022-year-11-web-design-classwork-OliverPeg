@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(166, 181, 165);
+}
+/* adding my chosen fornt style  */
+@font-face {
+  font-family: Cute And Active;
+  scr: url(Cute And Active.otf);
+}
+
+h1{
+  background-color: rgb(4, 151, 204);
+  font-family: Cute And Active, Arial, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+p{
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+  line-height:15px;
+}
