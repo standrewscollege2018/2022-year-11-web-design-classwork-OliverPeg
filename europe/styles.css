@@ -1,9 +1,15 @@
+/* my style sheet */
+/* setting all padding and margin to zero */
+{
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: rgb(166, 181, 165);
 }
 /* adding my chosen fornt style  */
 @font-face {
-  font-family: Cute And Active;
+  font-family: Cute And Active.oft;
   scr: url(Cute And Active.otf);
 }
 
@@ -17,4 +23,30 @@ p{
   font-family: Arial, sans-serif;
   margin-bottom: 20px;
   line-height:15px;
+}
+.banner-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.logo{
+background-color: rgb(66, 200, 245);
+padding: 20px;
+}
+.navbar{
+  background-color: rgb(66, 245, 200);
+padding: 20px;
+text-align: right;
+}
+/* formatting card in content area */
+.content-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+.card{
+  border: 1px solid rgb(12, 34, 56);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
 }
