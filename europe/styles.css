@@ -5,7 +5,7 @@
   margin: 0px;
 }
 body {
-  background-color: rgb(166, 181, 165);
+  background-color: rgb(250, 40, 246);
 }
 /* adding my chosen fornt style  */
 @font-face {
@@ -14,7 +14,14 @@ body {
 }
 
 h1{
-  background-color: rgb(4, 151, 204);
+  color: rgb(4, 151, 204);
+  font-family: Cute And Active, Arial, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+h2{
+  color: rgb(4, 151, 204);
   font-family: Cute And Active, Arial, sans-serif;
   margin-top: 15px;
   margin-bottom: 20px;
@@ -33,7 +40,7 @@ background-color: rgb(66, 200, 245);
 padding: 20px;
 }
 .navbar{
-  background-color: rgb(66, 245, 200);
+color: rgb(66, 245, 200)
 padding: 20px;
 text-align: right;
 }
@@ -48,5 +55,11 @@ text-align: right;
   border: 1px solid rgb(12, 34, 56);
   border-radius: 10px;
   overflow: hidden;
-  padding: 20px;
+
+}
+/* dealing with images in cards. */
+.card > img{
+  max-width: 100%;
+  height: auto;
+
 }
